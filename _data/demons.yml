@@ -1,10 +1,10 @@
 - rank: 1
   name: Tartarus
-    creator: Dolphy
-      verifier: Dolphy
-        min_percent: 100
-        - rank: 2
-          name: Abyss of Darkness
-            creator: Exen
-              verifier: Trick
-                min_percent: 100
+  creator: Dolphy
+  verifier: Dolphy
+  min_percent: 100
+- rank: 2
+  name: Abyss of Darkness
+  creator: Exen
+  verifier: Trick
+  min_percent: 100
