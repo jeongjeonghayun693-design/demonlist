@@ -1,0 +1,31 @@
+title: Demonlist
+description: A ranking list site for Geometry Dash demons
+theme: minima
+
+# GitHub Pages 설정
+url: "https://jeongjeonghayun693-design.github.io"
+baseurl: "/demonlist"
+
+# 플러그인
+plugins:
+  - jekyll-feed
+    - jekyll-seo-tag
+
+    # 빌드 설정
+    markdown: kramdown
+    highlighter: rouge
+
+    # 사이트 정보
+    author:
+      name: jeongjeonghayun693-design
+
+      # 네비게이션
+      nav:
+        - title: Home
+            url: /
+              - title: Demonlist
+                  url: /list/
+                    - title: Guidelines
+                        url: /guidelines/
+                          - title: Records
+                              url: /records/
